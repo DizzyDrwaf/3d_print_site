@@ -65,4 +65,3 @@ Verktyg och instruktioner
 Moodboard:
  
     Stilrent, mörkt tema, olika bilder med olika gradienter.
-
