@@ -1,8 +1,10 @@
-h1 {
-    color: green;
-}
 
-h1 + p {
+* {
     font-family: "anek-latin-variable", sans-serif;
     font-variation-settings: "wdth" 100, "wght" 500;
+    margin: auto;
+}
+
+p {
+    width: 40em;
 }
