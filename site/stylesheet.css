@@ -1,5 +1,5 @@
 
-/* {
+ * {
     font-family: "anek-latin-variable", sans-serif;
     font-variation-settings: "wdth" 100, "wght" 500;
     margin: auto;
@@ -7,7 +7,7 @@
 
 p {
     width: 40em;
-} */
+} 
 
 /* Primary Color */
 :root {
@@ -74,4 +74,8 @@ p {
   
   div + article {
     background-image: url("resources/asfalt-dark.png");
+  }
+
+  .navbar {
+    background-image: url("resources/cartographer.png");
   }
