@@ -72,3 +72,6 @@ p {
     text-align: center;
   }
   
+  div + article {
+    background-image: url("resources/asfalt-dark.png");
+  }
