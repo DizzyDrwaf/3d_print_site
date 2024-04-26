@@ -11,13 +11,12 @@ p {
 
 /* Primary Color */
 :root {
-    --primary-color: #FB961E;
+    --primary-color: #e23124;
     --secondary-color: #646A60;
   }
   
   /* Global Styles */
   body {
-    font-family: Arial, sans-serif;
     background-color: #fff;
     color: #333;
   }
@@ -62,7 +61,7 @@ p {
   }
   
   .button:hover {
-    background-color: #F88506;
+    background-color: #e23124;
   }
   
   /* Footer Styles */
