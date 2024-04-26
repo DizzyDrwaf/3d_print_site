@@ -46,7 +46,7 @@ p {
   }
   
   .nav-link:hover {
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(#211e1e, 0.1);
     border-radius: 5px;
   }
   
