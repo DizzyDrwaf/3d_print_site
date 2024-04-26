@@ -1,5 +1,5 @@
 
-* {
+/* {
     font-family: "anek-latin-variable", sans-serif;
     font-variation-settings: "wdth" 100, "wght" 500;
     margin: auto;
@@ -7,4 +7,69 @@
 
 p {
     width: 40em;
-}
+} */
+
+/* Primary Color */
+:root {
+    --primary-color: #FB961E;
+    --secondary-color: #646A60;
+  }
+  
+  /* Global Styles */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #333;
+  }
+  
+  /* Header Styles */
+  .header {
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 20px;
+  }
+  
+  /* Navigation Styles */
+  .navbar {
+    background-color: var(--secondary-color);
+    padding: 10px;
+  }
+  
+  .nav-item {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .nav-link {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+  }
+  
+  .nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+  }
+  
+  /* Button Styles */
+  .button {
+    background-color: var(--primary-color);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .button:hover {
+    background-color: #F88506;
+  }
+  
+  /* Footer Styles */
+  .footer {
+    background-color: var(--secondary-color);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
