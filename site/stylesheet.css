@@ -68,6 +68,14 @@
     text-align: center;
   }
   
+  article {
+    flex-flow: column;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
   header + article {
     background-image: url("resources/cartographer.png");
     background-color: #848A80;
