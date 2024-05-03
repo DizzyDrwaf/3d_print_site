@@ -68,6 +68,10 @@
     text-align: center;
   }
   
+  .card {
+    opacity: 0.3;
+  }
+
   article {
     flex-flow: column;
   }
