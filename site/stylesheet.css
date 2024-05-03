@@ -3,11 +3,7 @@
     font-family: "anek-latin-variable", sans-serif;
     font-variation-settings: "wdth" 100, "wght" 500;
     margin: auto;
-}
-
-p {
-    width: 40em;
-} 
+  }
 
 /* Primary Color */
 :root {
@@ -23,14 +19,14 @@ p {
   
   /* Header Styles */
   .header {
-    background-color: var(--primary-color);
+    /* background-color: var(--primary-color); */
     color: #fff;
     padding: 20px;
   }
   
   /* Navigation Styles */
   .navbar {
-    background-color: var(--secondary-color);
+    /* background-color: var(--secondary-color); */
     padding: 10px;
   }
   
@@ -72,10 +68,15 @@ p {
     text-align: center;
   }
   
-  div + article {
-    background-image: url("resources/asfalt-dark.png");
+  header + article {
+    background-image: url("resources/cartographer.png");
+    background-color: #848A80;
   }
 
-  .navbar {
-    background-image: url("resources/cartographer.png");
+  header {
+    background-image: url("resources/dark-geometric.png");
   }
+  
+  p {
+    width: 40em;
+  } 
