@@ -1,74 +1,88 @@
 
- /* margin auto is making the nav to be centerd */
- * {
+  /* margin auto is making the nav to be centerd */
+* {
     font-family: "anek-latin-variable", sans-serif;
     font-variation-settings: "wdth" 100, "wght" 500;
     margin: auto;
-  }
+}
   
-/* Primary Color */
+  /* Primary Color */
 :root {
     --primary-color: #e23124;
     --secondary-color: #848A80;
-  }
+ }
  
   /* Global Styles */
-  body {
-    background-color: #fff;
-    color: #333;
-  }
+body {
+  background-color: #fff;
+  color: #333;
+}
   
 
   /* Button Styles*/
-  .button {
-    background-color: var(--primary-color);
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    border-radius: 5px;
-  }
+.button {
+  background-color: var(--primary-color);
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
   
-  .button:hover {
-    background-color: #e23124;
-  }
+.button:hover {
+  background-color: #e23124;
+}
   
   /* Footer Styles */
-  .footer {
-    background-color: var(--secondary-color);
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-  }
+.footer {
+  background-color: var(--secondary-color);
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
   
-  .card {
-    opacity: 0.3;
+.card {
+  opacity: 0.3;
+}
 
-  }
+article {
+  flex-flow: column;
+}
 
-  article {
-    flex-flow: column;
-  }
+h1 {
+  padding-top: 1em;
+}
 
-  h1 {
-    padding-top: 1em;
-  }
+header + article {
+  background-image: url("resources/cartographer.png");
+  background-color: #848A80;
+}
 
-  header + article {
-    background-image: url("resources/cartographer.png");
-    background-color: #848A80;
-  }
-
-  header {
-    background-image: url("resources/dark-geometric.png");
-  }
+header {
+  background-image: url("resources/dark-geometric.png");
+}
   
-  p {
-    width: 40em;
-  } 
-
+p {
+  width: 40em;
+} 
 
 img {
   height: 2em;
 }
 
+.offcanvas, .offcanvas-end, .offcanvas-header, .offcanvas-body  {
+  margin: 0%;
+}
+
+* {
+  margin: 0%;
+}
+
+/* Positionen av taggar påverkas inte bara av taggens egna 
+marginal, utan även marginalerna på taggarna runtom.
+
+Klasserna .offcanvas är extra jobbiga att positionera eftersom
+de marginaler som påverkar den (alltså andra taggars margin)
+inte ser ut att ligga i närheten. */
+
+/* Ändra px till em */
