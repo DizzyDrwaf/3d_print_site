@@ -68,7 +68,19 @@
   } 
 
 
-img {
+  img {
   height: 2em;
-}
+  }
+
+  nav div a {
+    margin: 0;
+  }
+
+  .navbar {
+    margin: 0;
+  }
+
+
+
+
 
