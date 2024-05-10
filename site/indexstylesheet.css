@@ -1,25 +1,55 @@
 
-  /* margin auto is making the nav to be centerd */
+/* Positionen av taggar påverkas inte bara av taggens egna 
+marginal, utan även marginalerna på taggarna runtom.
+
+divs med klasserna .offcanvas och liknande är extra jobbiga att positionera eftersom
+de marginaler som påverkar dem (alltså andra taggars margin)
+är svåra att förstå var de befinner sig fysiskt i förhållande till
+sidenaven. Detta eftersom sidenavens position/storlek varierar. 
+
+Det funkar när: 
+
+* { 
+  margin: 0;
+}
+  
+med andra ord, "margin: auto;" är en jäkel, vi får titta vidare på det.
+
+*/
+
+/* jag får ändra px till em */
+
+
+
+  /* Global Styles */
+
 * {
     font-family: "anek-latin-variable", sans-serif;
     font-variation-settings: "wdth" 100, "wght" 500;
     margin: auto;
 }
   
-  /* Primary Color */
 :root {
     --primary-color: #e23124;
     --secondary-color: #848A80;
- }
+}
  
-  /* Global Styles */
 body {
   background-color: #fff;
   color: #333;
 }
   
+p {
+  margin-inline: 0.5em;
+}
 
-  /* Button Styles*/
+img {
+  height: 2em;
+}
+
+
+
+  /* Button Styles */
 .button {
   background-color: var(--primary-color);
   color: #fff;
@@ -29,28 +59,11 @@ body {
   border-radius: 5px;
 }
   
-.button:hover {
-  background-color: #e23124;
-}
   
-  /* Footer Styles */
-.footer {
-  background-color: var(--secondary-color);
-  color: #fff;
-  padding: 20px;
+  /* Article styles */
+article h1 {
+  padding-top: 2em;
   text-align: center;
-}
-  
-.card {
-  opacity: 0.3;
-}
-
-article {
-  flex-flow: column;
-}
-
-h1 {
-  padding-top: 1em;
 }
 
 header + article {
@@ -58,43 +71,91 @@ header + article {
   background-color: #848A80;
 }
 
-header {
+.row {
+  margin-block: 1em;
+  /* margin-top: 1em; */
+}
+
+/* Koden ovan, försöker skapa ett bra mellanrum mellan footern och resten av sidan. Artikelns bakgrund vill inte följa med. */
+
+
+
+  /* Card styles */
+.card:hover {
+  opacity: 0.5;
+  transition: 0.3s;
+}
+
+.card:hover p {
+  opacity: 1;
+}
+
+article .card {
+  border-radius: 1em;
+}
+
+article.article div.card p {
+  opacity: 1;
+}
+
+/* Koden ovan funkade inte helt, texten blir också tranparent */
+
+  /* Footer Styles */
+.footer {
+  background-color: var(--secondary-color);
+  color: #fff;
+  padding: 1em;
+  text-align: center;
+}
+
+footer {
   background-image: url("resources/dark-geometric.png");
 }
-  
-p {
-  width: 40em;
-} 
-
-  img {
-  height: 2em;
-  }
-
-  nav div a {
-    margin: 0;
-  }
-
-  .navbar {
-    margin: 0;
-  }
 
 
+  /* Footer social media */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
 
 
+
+/* Tests with margin */
+
+nav, div, a {
+  margin: 0;
+}
+
+.navbar {
+  margin: 0;
+}
 
 .offcanvas, .offcanvas-end, .offcanvas-header, .offcanvas-body  {
   margin: 0%;
 }
 
-* {
-  margin: 0%;
+
+/* Unused:
+
+.button:hover {
+  background-color: #e23124;
 }
+  
 
-/* Positionen av taggar påverkas inte bara av taggens egna 
-marginal, utan även marginalerna på taggarna runtom.
 
-Klasserna .offcanvas är extra jobbiga att positionera eftersom
-de marginaler som påverkar den (alltså andra taggars margin)
-inte ser ut att ligga i närheten. */
-
-/* Ändra px till em */
+*/
