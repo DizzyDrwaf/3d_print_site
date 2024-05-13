@@ -53,9 +53,9 @@ img {
   background-color: var(--primary-color);
   color: #fff;
   border: none;
-  padding: 10px 20px;
+  padding: 6.25em 12.5em;
   cursor: pointer;
-  border-radius: 5px;
+  border-radius: 3.125em;
 }
   
   
@@ -111,10 +111,10 @@ footer {
 
   /* Footer social media */
 .fa {
-  padding: 20px;
-  font-size: 30px;
-  height: 30px;
-  width: 30px;
+  padding: 12.5em;
+  font-size: 18.75em;
+  height: 18.75em;
+  width: 18.75em;
   text-align: center;
   text-decoration: none;
   border-radius: 50%;
