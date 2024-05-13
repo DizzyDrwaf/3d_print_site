@@ -81,21 +81,17 @@ header + article {
 
 
   /* Card styles */
-.card:hover {
-  opacity: 0.5;
-  transition: 0.3s;
-}
-
-.card:hover p {
+  article.article div.card:hover {
   opacity: 1;
+  transition: 0.3s;
 }
 
 article .card {
   border-radius: 1em;
 }
 
-article.article div.card p {
-  opacity: 1;
+article.article div.card {
+  opacity: 0.5;
 }
 
 /* Koden ovan funkade inte helt, texten blir också tranparent */
