@@ -26,7 +26,6 @@ med andra ord, "margin: auto;" är en jäkel, vi får titta vidare på det.
 * {
     font-family: "anek-latin-variable", sans-serif;
     font-variation-settings: "wdth" 100, "wght" 500;
-    margin: auto;
 }
   
 :root {
@@ -71,10 +70,7 @@ header + article {
   background-color: #848A80;
 }
 
-.row {
-  margin-block: 1em;
-  /* margin-top: 1em; */
-}
+
 
 /* Koden ovan, försöker skapa ett bra mellanrum mellan footern och resten av sidan. Artikelns bakgrund vill inte följa med. */
 
