@@ -71,7 +71,6 @@ header + article {
 }
 
 
-
 /* Koden ovan, försöker skapa ett bra mellanrum mellan footern och resten av sidan. Artikelns bakgrund vill inte följa med. */
 
 
@@ -93,6 +92,8 @@ article .card {
 article.article div.card p {
   opacity: 1;
 }
+
+
 
 /* Koden ovan funkade inte helt, texten blir också tranparent */
 
@@ -133,17 +134,7 @@ footer {
 
 /* Tests with margin */
 
-nav, div, a {
-  margin: 0;
-}
 
-.navbar {
-  margin: 0;
-}
-
-.offcanvas, .offcanvas-end, .offcanvas-header, .offcanvas-body  {
-  margin: 0%;
-}
 
 
 /* Unused:
@@ -152,6 +143,10 @@ nav, div, a {
   background-color: #e23124;
 }
   
+
+.offcanvas, .offcanvas-end, .offcanvas-header, .offcanvas-body  {
+  margin: 0%;
+}
 
 
 */
