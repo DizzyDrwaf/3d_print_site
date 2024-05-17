@@ -71,7 +71,10 @@ header + article {
 }
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 254e28480347666cd0e92907902056251eb3a558
 
   /* Card styles */
   article.article div.card:hover {
@@ -106,25 +109,23 @@ footer {
 
 
   /* Footer social media */
-
-
-
-
-/* Tests with margin */
-
-
-
-
-/* Unused:
-
-.button:hover {
-  background-color: #e23124;
-}
-  
-
-.offcanvas, .offcanvas-end, .offcanvas-header, .offcanvas-body  {
-  margin: 0%;
+.fa {
+  padding: 12.5em;
+  font-size: 18.75em;
+  height: 18.75em;
+  width: 18.75em;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
 }
 
+.fa:hover {
+  opacity: 0.7;
+}
 
-*/
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+
