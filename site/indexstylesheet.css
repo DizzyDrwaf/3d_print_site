@@ -33,9 +33,11 @@ med andra ord, "margin: auto;" är en jäkel, vi får titta vidare på det.
     --secondary-color: #848A80;
 }
  
-body {
-  background-color: #fff;
-  color: #333;
+.body {
+  background-image: url("resources/cartographer.png");
+  background-color: #848A80;
+  background-repeat: repeat;
+  background-position: calc(100% - 30px) center;
 }
   
 p {
@@ -49,6 +51,7 @@ img {
 
 
   /* Button Styles */
+
 .button {
   background-color: var(--primary-color);
   color: #fff;
@@ -60,26 +63,27 @@ img {
   
   
   /* Article styles */
+
 article h1 {
   padding-top: 2em;
   text-align: center;
 }
-
+/*
 header + article {
   background-image: url("resources/cartographer.png");
   background-color: #848A80;
+  background-repeat: repeat;
+  background-position: calc(100% - 30px) center;
 }
 
 
-<<<<<<< HEAD
 
-=======
->>>>>>> 254e28480347666cd0e92907902056251eb3a558
 
   /* Card styles */
-  article.article div.card:hover {
+
+article.article div.card:hover {
   opacity: 1;
-  transition: 0.3s;
+  box-shadow: 0.0em 0.2em 0.2em rgba(0, 0, 0, 0.3);
 }
 
 article .card {
@@ -88,24 +92,16 @@ article .card {
 
 article.article div.card {
   opacity: 0.5;
+  transition: 0.3s
 }
 
 
 
 /* Koden ovan funkade inte helt, texten blir också tranparent */
 
-  /* Footer Styles */
-.footer {
-  background-color: var(--secondary-color);
-  color: var(--secondary-color);
-  padding: 1em;
-  text-align: center;
-  border-top: 1em solid var(--primary-color);
-}
 
-footer {
-  background-image: url("resources/dark-geometric.png"); 
-}
+
+
 
 
   /* Footer social media */

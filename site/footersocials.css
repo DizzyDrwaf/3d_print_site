@@ -2,8 +2,10 @@
 
 .cardfootersocial {
   display: flex;
-  height: 70px;
-  width: 270px;
+  height: 4.375em;
+  width: 16.875em;
+  /*position: relative;
+  left: 1;*/
 }
 
 .cardfootersocial svg {
@@ -79,9 +81,38 @@
   }*/
 }
 
+/* footer*/
+
+footer {
+  background-image: url("resources/dark-geometric.png"); 
+  background-repeat: repeat;
+  background-position: calc(100% - 30px) center;
+}
 
 
-/* socials */
+.footer {
+  background-color: var(--secondary-color);
+  color: var(--secondary-color);
+  padding: 1em;
+  text-align: center;
+  border-top: 1em solid var(--primary-color);
+  margin-top: 2em;
+  align-items: center;
+  justify-content: center;
+  height: 5em;
+}
+
+.containerfooter{
+  display: flex;
+ 
+}
+
+
+
+
+
+
+/* socials nav */
 
 .cardnavsocial {
   display: flex;
