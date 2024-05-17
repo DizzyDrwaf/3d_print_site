@@ -96,13 +96,14 @@ article.article div.card {
   /* Footer Styles */
 .footer {
   background-color: var(--secondary-color);
-  color: #fff;
+  color: var(--secondary-color);
   padding: 1em;
   text-align: center;
+  border-top: 1em solid var(--primary-color);
 }
 
 footer {
-  background-image: url("resources/dark-geometric.png");
+  background-image: url("resources/dark-geometric.png"); 
 }
 
 
