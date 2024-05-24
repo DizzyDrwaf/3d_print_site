@@ -1,11 +1,10 @@
 
 
-img {
-    height: 2em;
-    display: flex;
-    align-items: center;
-}
-
+article .card {
+    border-radius: 1em;
+    max-width: 40em;
+    min-height: 15em;
+  }
 /*
 .offcanvas-header, .offcanvas-body {
     
