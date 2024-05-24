@@ -46,21 +46,12 @@ p {
 
 img {
   height: 2em;
+  display: flex;
+  align-items: center;
 }
 
 
 
-  /* Button Styles */
-
-.button {
-  background-color: var(--primary-color);
-  color: #fff;
-  border: none;
-  padding: 6.25em 12.5em;
-  cursor: pointer;
-  border-radius: 3.125em;
-}
-  
   
   /* Article styles */
 
@@ -96,9 +87,33 @@ article.article div.card {
 }
 
 
+.article.article div.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+}
 
-/* Koden ovan funkade inte helt, texten blir också tranparent */
+
+
+
+  /* Button Styles */
+
+  .button {
+    background-color: var(--primary-color);
+    color: #fff;
+    border: none;
+    padding: 6.25em 12.5em;
+    cursor: pointer;
+    border-radius: 3.125em;
+  }
+  
+  
+  
 
 
 
 
+
+
+ 
