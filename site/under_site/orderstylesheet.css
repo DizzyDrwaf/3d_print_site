@@ -4,23 +4,29 @@ img {
     max-height: 20em;
 }
 
+/* fixar bilder i cards på order */
+
 article .card {
     border-radius: 1em;
     max-width: 40em;
     min-height: 15em;
   }
+
 /*
 .offcanvas-header, .offcanvas-body {
     
 }
 */
 
-nav img {
-  height: 1.75em;
-  display: flex;
-  align-items: center;
+
+
+.card img {
+  border-top-right-radius: 1em;
+  border-top-left-radius: 1em;
 }
 
-.redprinterhead {
-  background-image: url(../resources/cool-background-1.jpg);
+/* anti hover opacity 0.5 */
+
+.article.article div.card {
+  opacity: 1;
 }

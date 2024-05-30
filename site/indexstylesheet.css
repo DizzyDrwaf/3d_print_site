@@ -46,10 +46,26 @@ p {
 
 nav img {
   height: 1.75em;
-  display: flex;
   align-items: center;
 }
 
+
+/* responsive stuff: 
+
+320px — 480px: Mobile devices
+481px — 768px: iPads, Tablets
+769px — 1024px: Small screens, laptops
+1025px — 1200px: Desktops, large screens
+
+*/
+
+@media (max-width: 1919px) {
+      
+  .article.article div.card {
+      opacity: 1;
+    }
+    
+  }
 
 
   
@@ -77,25 +93,24 @@ header + article {
 article.article div.card:hover {
   opacity: 1;
   box-shadow: 0.0em 0.2em 0.2em rgba(0, 0, 0, 0.3);
+  transition: 0.35s;
 }
 
 article .card {
   border-radius: 1em;
 }
 
-article.article div.card {
+.article div.card {
   opacity: 0.5;
-  transition: 0.3s
 }
 
 
-.article.article div.card {
+.article div.card {
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: left;
 }
-
 
 
 

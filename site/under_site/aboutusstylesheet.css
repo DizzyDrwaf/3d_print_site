@@ -1,11 +1,6 @@
 article .card {
-    border-radius: 1em;
     max-width: 40em;
     min-height: 15em;
   }
 
-  nav img {
-    height: 1.75em;
-    display: flex;
-    align-items: center;
-  }
+  
