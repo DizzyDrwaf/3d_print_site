@@ -23,6 +23,7 @@ article .card {
 .card img {
   border-top-right-radius: 1em;
   border-top-left-radius: 1em;
+  min-height: 13.5em;
 }
 
 /* anti hover opacity 0.5 */
@@ -30,3 +31,4 @@ article .card {
 .article.article div.card {
   opacity: 1;
 }
+
