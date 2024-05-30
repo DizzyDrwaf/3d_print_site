@@ -3,3 +3,9 @@ article .card {
     max-width: 40em;
     min-height: 15em;
   }
+
+  nav img {
+    height: 2em;
+    display: flex;
+    align-items: center;
+  }

@@ -41,10 +41,10 @@ med andra ord, "margin: auto;" är en jäkel, vi får titta vidare på det.
 }
   
 p {
-  margin-inline: 0.5em;
+  margin-inline: 0.5em; 
 }
 
-header img {
+nav img {
   height: 2em;
   display: flex;
   align-items: center;
@@ -69,7 +69,7 @@ header + article {
   background-position: calc(100% - 30px) center;
 }
 
-
+*/
 
 
   /* Card styles */
