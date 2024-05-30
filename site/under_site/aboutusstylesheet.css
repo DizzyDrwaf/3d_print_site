@@ -22,3 +22,7 @@
     border-top-right-radius: 1em;
     margin-bottom: 1em;
   }
+
+  .article.article div.card {
+    opacity: 1;
+  }
