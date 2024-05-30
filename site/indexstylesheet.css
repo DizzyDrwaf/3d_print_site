@@ -17,7 +17,7 @@ med andra ord, "margin: auto;" är en jäkel, vi får titta vidare på det.
 
 */
 
-/* jag får ändra px till em */
+/* jag ändrar px till em */
 
 
 
@@ -37,7 +37,7 @@ med andra ord, "margin: auto;" är en jäkel, vi får titta vidare på det.
   background-image: url("resources/cartographer.png");
   background-color: #848A80;
   background-repeat: repeat;
-  background-position: calc(100% - 30px) center;
+  background-position: calc(100% - 1.875em) center;
 }
   
 p {
@@ -45,7 +45,7 @@ p {
 }
 
 nav img {
-  height: 2em;
+  height: 1.75em;
   display: flex;
   align-items: center;
 }
