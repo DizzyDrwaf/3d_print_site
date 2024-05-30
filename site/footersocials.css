@@ -26,13 +26,14 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 20%;
+  width: 3em;
   color: whitesmoke;
-  font-size: 24px;
+  font-size: auto;
   text-decoration: none;
   transition: 0.25s;
   border-radius: 3.125em;
-  height: 2.3em;
+  height: 2.6em;
+  margin: auto;
 }
 
 .cardfootersocial svg {
@@ -96,8 +97,9 @@
 }
 
 .containerfooter{
-  display: flex;
- 
+  display: flex; 
+  width: 100%;
+  align-items: center;
 }
 
 .footer .h2 {
@@ -107,8 +109,33 @@
 }
 
 
+.ftr-about-us {
+ display: flex;
+}
 
 
+.btn-about-us {
+  display: flex;
+  background-color: rgba(245, 245, 245, 0.25);
+  color: black;
+  border: none;
+  padding: 0.5em 1em;
+  border-radius: 0.5em;
+  font-size: 1em;
+  cursor: pointer;
+  transition: 0.25s;
+  margin-left: 1em;
+  margin-top: auto;
+  margin-bottom: auto;
+  text-wrap: nowrap;
+  padding: 10px;
+  margin-left: auto;
+}
+
+.btn-about-us:hover {
+  background-color: rgba(245, 245, 245, 0.8);
+  transition: 0.25s;
+}
 
 /* socials nav */
 
