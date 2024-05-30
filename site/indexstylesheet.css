@@ -95,7 +95,6 @@ article .card {
 
 
 
-
 .article div.card {
   display: flex;
   align-items: center;
@@ -103,6 +102,9 @@ article .card {
   text-align: left;
 }
 
+.card img {
+  size: 100%;
+}
 
   /* Button Styles */
 
