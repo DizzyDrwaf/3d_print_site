@@ -164,7 +164,11 @@ article .card {
     margin-top: 1em;
     max-width: 40em;
     min-height: 15em;
+    margin-top: 2.5em;
   }
 
-
+  .h1-headline{
+    position: relative; 
+    top: 1em;
+  }
 }
