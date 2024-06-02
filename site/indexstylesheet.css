@@ -146,4 +146,25 @@ article .card {
 }
 
 
+@media screen and (max-width: 600px) {
+  .commenting {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0em;
+    /*background-color: red;*/
+    width: 100%;
+  } 
 
+  .col-sm .card {
+    color: black;
+    border: none;
+    border-radius: 1em;
+    margin-top: 1em;
+    max-width: 40em;
+    min-height: 15em;
+  }
+
+
+}
