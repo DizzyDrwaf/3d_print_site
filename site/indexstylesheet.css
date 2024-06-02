@@ -126,5 +126,24 @@ article .card {
 
 
 
+/* commenting system sytle */
 
+.commenting {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0em;
+  /*background-color: red;*/
+  width: 50%;
+} 
  
+
+.container-commenting {
+  /*background-color: green;*/
+  display: flex;
+  justify-content: center;
+}
+
+
+
