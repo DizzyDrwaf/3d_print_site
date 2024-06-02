@@ -143,6 +143,7 @@ article .card {
   /*background-color: green;*/
   display: flex;
   justify-content: center;
+  margin-top: 1em;
 }
 
 
