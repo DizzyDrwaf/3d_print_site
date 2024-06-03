@@ -1,3 +1,4 @@
+!OUTDATED!
 
 Foundation for new undersite (needs to lie in the site/under_site folder) (navigation needs to be adjusted)
 
