@@ -121,10 +121,54 @@ article .card {
   border-top-right-radius: 1em;
   border-top-left-radius: 1em;
   min-height: 13.5em;
-  max-height: auto;
 }
 
 
 
+/* commenting system sytle */
 
+.commenting {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0em;
+  /*background-color: red;*/
+  width: 50%;
+} 
  
+
+.container-commenting {
+  /*background-color: green;*/
+  display: flex;
+  justify-content: center;
+  margin-top: 1em;
+}
+
+
+@media screen and (max-width: 600px) {
+  .commenting {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0em;
+    /*background-color: red;*/
+    width: 100%;
+  } 
+
+  .col-sm .card {
+    color: black;
+    border: none;
+    border-radius: 1em;
+    margin-top: 1em;
+    max-width: 40em;
+    min-height: 15em;
+    margin-top: 2.5em;
+  }
+
+  .h1-headline{
+    position: relative; 
+    top: 1em;
+  }
+}
